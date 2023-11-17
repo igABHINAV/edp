@@ -1,0 +1,14 @@
+.sidebar {
+  width: 290px;
+  min-height: 900px;
+  flex-shrink: 0;
+  color: white;
+  background-color: #0063a3;
+}
+
+@media screen and (max-width: 400px) {
+    .sidebar {
+      width: 0px;
+      font-size: 5px;
+    }
+  }
